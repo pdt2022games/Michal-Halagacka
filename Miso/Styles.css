@@ -1,11 +1,27 @@
 .TopSlide {
     display: flex;
     background: azure;
-    justify-content:space-evenly;
+    justify-content:flex-start;
 }
 .TopSlideDiv {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#listItem {
+    margin-inline: 30%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    padding: 8px;
 }
 
 body {
